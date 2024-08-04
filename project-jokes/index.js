@@ -47,7 +47,7 @@ app.post('/jokes', (req, res) => {
     const joke = req.body.joke;
     console.log(joke);
     jokes.push({
-        id: newId,
+        id: newId,  
         joke: joke
     });
     res.send({ id: newId, joke: joke });
