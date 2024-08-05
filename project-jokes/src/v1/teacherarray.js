@@ -8,3 +8,4 @@ const teachers = [
 teachers.forEach(e => console.log(e));
 
 
+ 
